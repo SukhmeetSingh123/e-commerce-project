@@ -5,7 +5,7 @@ const CartContext = createContext();
 
 const getLocalCartData = () => {
   const localCartData = localStorage.getItem('Ecommerce');
-  if (localCartData === []) {
+  if (localCartData == []) {
     return [];
   } 
   else {
