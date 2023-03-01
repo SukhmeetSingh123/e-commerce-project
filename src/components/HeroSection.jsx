@@ -2,8 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import {NavLink} from "react-router-dom";
 import {Button} from "../style/Button"
-const HeroSection = ({myData}) => {
+const HeroSection = ({myData,MyImage}) => {
     const {name}=myData;
+    const {image}=MyImage;
   return <Wrapper>
   <div className="container">
   <div className="grid grid-two-column">
@@ -17,18 +18,18 @@ const HeroSection = ({myData}) => {
   </div>
   <div className="hero-section-image">
   <figure>
-  <img src="" alt="image" />
+  <img src={image} alt="image" />
   </figure>
   </div>
   </div>
-  </div>
+  </div> 
   </Wrapper>
 };
 const Wrapper = styled.section`
   padding: 2rem 0;
   img {
     min-width: 10rem;
-    height: 10rem;
+    height:23rem;
   }
   .hero-section-data {
     p {
@@ -53,12 +54,12 @@ const Wrapper = styled.section`
     position: relative;
     &::after {
       content: "";
-      width: 60%;
-      height: 80%;
+      width: 77%;
+      height: 88%;
       background-color: rgba(81, 56, 238, 0.4);
       position: absolute;
-      left: 50%;
-      top: -5rem;
+      left: 37%;
+      top: -3rem;
       z-index: -1;
     }
   }

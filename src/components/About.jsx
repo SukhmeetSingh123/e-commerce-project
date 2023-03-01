@@ -1,13 +1,11 @@
 import HeroSection from "./HeroSection";
-import {useProductContext} from "../context/productcontext";
 const About = () => {
-    const {MyName}= useProductContext();
     const data={
-        name:"About Ecommerse "
+        name:"About Ecommerse ",
+        image:"./public/images/About_Page.jpg"
     }
   return <>
-  <HeroSection myData={data}/>
-  
+  <HeroSection myData={data} MyImage={data}/>
   </>;
 };
 

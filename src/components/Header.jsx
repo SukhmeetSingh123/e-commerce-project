@@ -6,7 +6,9 @@ const Header = () => {
   return (
     <MainHeader>
     <NavLink to="/">
-    <img src="" alt="logoimg" />
+      <div className="logo">
+    <img src="#" alt="logoimg" />
+      </div>
     </NavLink>
     <Nav/>
     </MainHeader>
@@ -22,6 +24,7 @@ const MainHeader = styled.header`
   position: relative;
   .logo {
     height: 3rem;
+    width:2rem;
   }
 `;
 

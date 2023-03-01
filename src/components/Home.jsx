@@ -5,15 +5,16 @@ import Trusted from "./Trusted";
 import FeaturedProduct from "./FeaturedProduct";
 const Home = () => {
     const data={
-        name:"Ecommerse store"
+        name:"Ecommerse store",
+        image:"./public/images/home_page.jpg",
     }
   return (
     <>
-  <HeroSection myData={data} />
+  <HeroSection myData={data} MyImage={data} />
   <FeaturedProduct/>
   <Services/>
   <Trusted/>
 </>
 );
 };
-export default Home;
+export default Home; 
