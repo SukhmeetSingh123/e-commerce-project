@@ -6,19 +6,19 @@ const Trusted = () => {
     <h3>Trusted By 1000+ Companies</h3>
     <div className="brand-section-slider">
     <div className="slide">
-    <img src=".\public\images\apple.png" alt="trusted image" />
+    <img src="\images\apple.png" alt="trusted image" />
     </div>
     <div className="slide">
-    <img src=".\public\images\amazon.webp" alt="trusted image" />
+    <img src="\images\amazon.webp" alt="trusted image" />
     </div>
     <div className="slide">
-    <img src=".\public\images\google.png" alt="trusted image" />
+    <img src="\images\google.png" alt="trusted image" />
     </div>
     <div className="slide">
-    <img src=".\public\images\microsoft.png" alt="trusted image" />
+    <img src="\images\microsoft.png" alt="trusted image" />
     </div>
     <div className="slide">
-    <img src=".\public\images\flipkart.png" alt="trusted image" />
+    <img src="\images\flipkart.png" alt="trusted image" />
     </div>
     </div>
     </div>

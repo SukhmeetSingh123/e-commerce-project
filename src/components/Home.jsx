@@ -6,7 +6,7 @@ import FeaturedProduct from "./FeaturedProduct";
 const Home = () => {
     const data={
         name:"Ecommerse store",
-        image:"./public/images/home_page.jpg",
+        image:"/images/home_page.jpg",
     }
   return (
     <>
